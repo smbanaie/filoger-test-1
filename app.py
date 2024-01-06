@@ -26,9 +26,7 @@ def get_image_list():
     image_list = [image.name for image in image_path.glob("*.jpg")]
     return image_list
 
-
 if __name__ == "__main__":
     import uvicorn
-
     uvicorn.run(app, host="127.0.0.1", port=8000)
 
