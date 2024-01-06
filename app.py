@@ -10,7 +10,7 @@ app.mount("/static", StaticFiles(directory="static"), name="static")
 
 @app.get("/", response_class=HTMLResponse)
 def read_root():
-    return "<h1>FastAPI Image List</h1>"
+    return "<h4>FastAPI Image List</h4>"
 
 @app.get("/images/", response_class=HTMLResponse)
 def read_images_list():
