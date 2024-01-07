@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-from fastapi.responses import HTMLResponse
+from fastapi.responses import HTMLResponse, Request
 from fastapi.staticfiles import StaticFiles
 from pathlib import Path
 
